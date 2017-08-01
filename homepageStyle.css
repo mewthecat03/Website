@@ -1,0 +1,10 @@
+body{margin: 0;}
+
+.inlineImages{display: inline;
+              margin: auto;}
+.inlineImages img{border-style: solid;
+                   border-color: black;
+                   border-width: 1px;}
+.nav{display: inline;
+     background-color: navy;
+     color: aqua;}
