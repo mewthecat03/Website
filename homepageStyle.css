@@ -8,19 +8,14 @@ h1{ margin-left: 1%;
 h2{margin-top:5%;}
 head{margin: 0;}
 
+
 .images{display: inline;
               margin-left: 15%;}
 .images img{border-style: solid;
                    border-color: black;
                  border-width: 1px;}
 .nav{
-      background-color: LightSkyBlue;
-      top: 0;
-      width:10%;
-      height:100%;
-      position: fixed;
+    color: LightSkyBlue;
      }
-div{padding-right: 20px;
-    height: 100%;
-    width: 100%;}
+
 .cont{display:flex;}
