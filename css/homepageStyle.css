@@ -16,6 +16,8 @@ h1{text-align: center;}
 .images img{border-style: solid;
                    border-color: black;
                  border-width: 1px;}
+.jumbotron{background-color: aqua;
+          }
 .nav{
     color: LightSkyBlue;
      }
