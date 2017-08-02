@@ -7,7 +7,9 @@ h1{ margin-left: 1%;
    font-size: 10px;}
 h2{margin-top:5%;}
 head{margin: 0;}
-body{background-image: url('http://cdn2.cloudpro.co.uk/sites/cloudprod7/files/Cloud%20question%20mark.jpg');}
+body{background-color: lightCyan;
+background-size: contain;}
+h1{text-align: center;}
 
 .images{display: inline;
               margin-left: 15%;}
