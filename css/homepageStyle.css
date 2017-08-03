@@ -32,8 +32,8 @@ h1{text-align: center;}
       display: none;
     }
   }
-#logo{height:10%;
-width:15%}
+#logo{height:100%;
+width:100%}
 .blogs{margin-top: 5%;}
 
 .btn-twitter{background: #00acee;
@@ -45,3 +45,8 @@ color:white;}
 .btn-pinterest{background: #b62f26;
 border-color : #b62f26;
 color:white;}
+
+footer{background-color: midnightBlue;
+margin-top:5%}
+
+#img1{background-image: url('images/logo.png');}

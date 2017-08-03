@@ -18,7 +18,7 @@
 
 
 
-<nav class="navbar navbar-fixed-top">
+<nav class="navbar navbar-fixed-top navbar-default navbar-transparent">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -35,9 +35,10 @@
 
         <li class="active"><a href="Index.html"><img src=
             'http://www.iconsdb.com/icons/preview/tropical-blue/home-xxl.png'
-                                                            height=15px width=15px id='img1' ></a></li>
+                                                            height=15px width=15px ></a></li>
         <li><a href="#">Popular Blogs</a></li>
         <li><a href="#">Contact</a></li>
+        <li><a href='#'>Upload</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Search blogs<input></input><button class='button'>Search</button></a></li>
@@ -81,6 +82,7 @@
 </div>
 
 <div class='blogs'>
+  <h1><blockquote>Most recent Blogs</blockquote></h1>
   <div class='text-center'>
     <div class='row'>
       <div class='col-sm-6'>
@@ -91,17 +93,23 @@
       </div>
 
       <div class='col-sm-6'>
-        <img src='https://www.pets4homes.co.uk/images/articles/1756/large/the-evolution-of-the-horse-and-what-it-means-for-the-horse-owner-53a2908e63fc5.jpg' height=150px width=150px class='img-circle' class='img-responsive'>
-        <p>Lauren's Horse Blog</p>
+        <a href='horseriding.html'>
+          <img src='https://www.pets4homes.co.uk/images/articles/1756/large/the-evolution-of-the-horse-and-what-it-means-for-the-horse-owner-53a2908e63fc5.jpg' height=150px width=150px class='img-circle' class='img-responsive'>
+          <p>Lauren's Horse Blog</p>
+       </a>
       </div>
     </div>
   </div>
 </div>
 
-<div id='social-buttons'>
-  <button class='btn btn-lg btn-twitter '>Twitter</button>
-  <button class='btn btn-lg btn-facebook'>Facebook</button>
-  <button class='btn btn-lg btn-pinterest'>Pinterest</button>
-</div>
+<footer>
+
+  <div id='social-buttons' class='text-center'>
+    <button class='btn btn-sm btn-twitter '>Twitter</button>
+    <button class='btn btn-sm btn-facebook'>Facebook</button>
+    <button class='btn btn-sm btn-pinterest'>Pinterest</button>
+  </div>
+</footer>
+
 </body>
 </html>
